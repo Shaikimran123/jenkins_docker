@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: Hello_world
-        image: shaikimmu/mydockerhub:tagname
+        image: shaikimmu/mydockerhub
         ports:
         - containerPort: 8080
