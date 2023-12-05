@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: Hello_world
-        image: abhishekf5/ultimate-cicd:replaceImageTag
+        image: shaikimmu/mydockerhub:tagname
         ports:
         - containerPort: 8080
