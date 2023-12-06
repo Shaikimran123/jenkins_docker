@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: Hello_world
+  name: App
   labels:
-    app: Hello_world
+    app: App
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: Hello_world
+      app: App
   template:
     metadata:
       labels:
-        app: Hello_world
+        app: App
     spec:
       containers:
-      - name: Hello_world
+      - name: App
         image: shaikimmu/mydockerhub
         ports:
         - containerPort: 8080
