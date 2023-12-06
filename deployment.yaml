@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: App
-        image: shaikimmu/mydockerhub
+        image: shaikimmu/mydockerhub:latest
         ports:
         - containerPort: 8080
